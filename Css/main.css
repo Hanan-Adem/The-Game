@@ -1,0 +1,16 @@
+/* Animation on page load */
+.animate-on-load,
+.news-item,
+.review-card,
+.game-card,
+.hero,
+.navbar {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}

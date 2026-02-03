@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/Css/Login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- LEFT SIDE -->
+      <div class="left">
+      
+
+        <h1>Welcome Back</h1>
+
+        <form>
+          <input type="email" placeholder="Email Address" required />
+
+          <div class="password-box">
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <i class="fa-solid fa-eye" id="togglePassword"></i>
+          </div>
+
+          <a href="#" class="forgot">Forgot your password?</a>
+
+          <button type="submit" class="login-btn">Log in</button>
+        </form>
+
+        <p class="signup">
+          Don’t have an account?
+          <a href="/Html/SignUp.html">Sign up</a>
+        </p>
+      </div>
+
+      <!-- RIGHT SIDE (IMAGE AS IMAGE, NOT BACKGROUND) -->
+      <div class="right">
+        <img
+          src="/image/dawallpaperflare.com_wallpaper 1.svg"
+          alt="Game scene"
+        />
+      </div>
+    </div>
+
+    <script src="/Js/login.js"></script>
+  </body>
+</html>

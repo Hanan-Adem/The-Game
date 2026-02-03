@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  <link rel="stylesheet" href="/Css/Cart.css">
+  <link rel="stylesheet" href="/Css/main.css">
+
+  <title>Game Store - Cart</title>
+</head>
+<body>
+  <!-- Navigation section -->
+<!-- ================= NAVBAR ================= -->
+      <nav class="navbar">
+      <!-- LEFT -->
+      <div class="nav-left">
+        <img src="/image/Logo.png" class="logo" />
+
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search store" />
+        </div>
+      </div>
+
+      <!-- CENTER -->
+      <ul class="nav-links">
+        <li><a href="/Html/Home.html">Home</a></li>
+        <li><a href="/Html/Games.html">Games</a></li>
+        <li><a href="/Html/News.html">News</a></li>
+        <li><a href="/Html/About.html">About</a></li>
+      </ul>
+
+      <!-- RIGHT -->
+      <div class="icons">
+        <a href="/Html/Cart.html">
+          <img src="/image/Cart Icon.png" />
+        </a>
+        <a href="/Html/Login.html">
+          <img src="/image/Profile Icon.png" />
+        </a>
+      </div>
+
+      <!-- HAMBURGER -->
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <!-- ================= MOBILE MENU ================= -->
+
+<!-- Navigation section Ends here -->
+    
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+    
+    <!-- Header section -->
+    <!-- Header section Ends here -->
+    
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+    
+    <!-- Main section -->
+  <!-- <main class="main">
+
+  <div class="cart-layout"> -->
+
+    <!-- Cart Items -->
+    <!-- <div id="cart-box">
+
+      <div class="cart-item">
+        <img src="/image/Browse-img/Game-29.svg">
+
+        <div class="item-info">
+          <h3>Elden Ring</h3>
+
+          <div class="qty">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+        </div>
+
+        <div class="price">$39.99</div>
+      </div>
+
+      <hr>
+
+      <div class="cart-item">
+        <img src= "/image/Browse-img/Game-24.svg"   alt="God of War">
+
+        <div class="item-info">
+          <h3>God of War Ragnarok</h3>
+
+          <div class="qty">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+        </div>
+
+        <div class="price">$49.99</div>
+      </div>
+
+    </div> -->
+
+    <!-- Order Summary -->
+    <!-- <div class="summary">
+      <h2>Order Summary</h2>
+
+      <div class="row">
+        <span>Subtotal</span>
+        <span>$89.98</span>
+      </div>
+
+      <div class="row">
+        <span>Tax</span>
+        <span>$0.00</span>
+      </div>
+
+      <div class="row total">
+        <span>Total</span>
+        <span>$89.98</span>
+      </div>
+
+      <input type="text" placeholder="Promo code">
+
+      <button class="checkout">Checkout</button>
+      <button class="continue">Continue Shopping</button>
+    </div> -->
+
+  <!-- </div>
+
+</main> -->
+
+<main class="main">
+
+  <div class="cart-layout">
+
+    <!-- Cart Items -->
+    <div id="cart-box" class="cart-box">
+      <!-- JS will render cart items here -->
+    </div>
+
+    <!-- Order Summary -->
+    <div class="summary">
+      <h2>Order Summary</h2>
+
+      <div class="row">
+        <span>Subtotal</span>
+        <span id="subtotal">$0.00</span>
+      </div>
+
+      <div class="row">
+        <span>Tax</span>
+        <span id="tax">$0.00</span>
+      </div>
+
+      <div class="row total">
+        <span>Total</span>
+        <span id="total">$0.00</span>
+      </div>
+
+      <input type="text" placeholder="Promo code">
+
+      <button class="checkout">Checkout</button>
+      <button class="continue">Continue Shopping</button>
+    </div>
+
+  </div>
+
+</main>
+<!-- Main section Ends here -->
+
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+
+  <!-- footer section -->
+<footer class="footer">
+  <div class="footer-top">
+    <div>
+      <img src="/image/Logo.png" class="logo">
+      <p>
+        GameStore - Where every gamer levels up! From epic AAA adventures to indie gems, grab the hottest deals on PC, Xbox, PlayStation & Nintendo. Play more, pay less.🎮
+      </p>
+    </div>
+    <div class="line"></div>
+
+    <div class="footer-links">
+      <h4>Links</h4>
+      <a href="/Html/Home.html">Home</a>
+      <a href="/Html/Games.html">Games</a>
+      <a href="/Html/About.html">About</a>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>info@gamestore.com</p>
+      <p>+251 951225933</p>
+    </div>
+  </div>
+<hr>
+  <p class="copy">© 2026 Game Store. All rights reserved.</p>
+</footer>
+<!-- footer section Ends here -->
+
+<!-- Js -->
+<script src="/Js/Cart.js"></script>
+<script src="/Js/index.js"></script>
+<script src="/Js/main.js"></script>
+
+</body>
+</html>

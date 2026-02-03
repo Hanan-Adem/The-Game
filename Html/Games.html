@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="/Css/Games.css">
+  <title>All Games - Game Store</title>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-left">
+    <img src="/image/Logo.png" class="logo" />
+    <div class="search-box">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Search store" />
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="/Html/Home.html">Home</a></li>
+    <li><a href="/Html/Games.html" class="active">Games</a></li>
+    <li><a href="/Html/News.html">News</a></li>
+    <li><a href="/Html/About.html">About</a></li>
+  </ul>
+  <div class="icons">
+    <a href="/Html/Cart.html"><img src="/image/Cart Icon.png" /></a>
+    <a href="/Html/Login.html"><img src="/image/Profile Icon.png" /></a>
+  </div>
+</nav>
+
+<main class="games-main">
+  <h1 style="margin:90px; color:white;">All Games</h1>
+  
+  <div class="top-filters">
+    <div class="filter-group">
+      <label>Category</label>
+      <select id="categoryFilter">
+        <option value="All">All</option>
+        <option value="Action">Action</option>
+        <option value="RPG">RPG</option>
+        <option value="Horror">Horror</option>
+        <option value="Shooter">Shooter</option>
+      </select>
+    </div>
+    <button type="button" class="apply-filter">Apply</button>
+  </div>
+
+  <div class="games-grid" id="gamesGrid"></div>
+
+  <!-- Modal -->
+  <div id="games-modal" class="games-modal">
+    <div class="games-modal-content">
+      <span class="games-close" id="games-close">&times;</span>
+      <div class="games-modal-body">
+        <img id="games-img" src="" alt="Game">
+        <div class="games-modal-info">
+          <h2 id="games-title"></h2>
+          <p id="games-desc"></p>
+          <iframe id="games-video" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script src="/Js/Games.js"></script>
+</body>
+</html>
