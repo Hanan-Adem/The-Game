@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  <link rel="stylesheet" href="/Css/Home.css">
+  <link rel="stylesheet" href="/Css/main.css">
+  <title>Game Store</title>
+</head>
+<body>
+  <!-- Navigation section -->
+  <!-- Navigation -->
+<nav class="navbar">
+
+  <!-- Left -->
+  <div class="nav-left">
+    <img src="/image/Logo.png" alt="Logo" class="logo">
+
+    <div class="search-box">
+      <i class="fa-solid fa-magnifying-glass"></i> 
+      <input type="text" placeholder="Search...">
+    </div>
+  </div>
+
+  <!-- Center -->
+  <ul class="nav-links">
+    <li><a href="/Html/Home.html" class="active">Home</a></li>
+    <li><a href="/Html/Games.html">Games</a></li>
+    <li><a href="/Html/News.html">News</a></li>
+    <li><a href="/Html/About.html">About</a></li>
+    <li><a href="/Html/Cart.html">Cart</a></li>
+  </ul>
+
+  <!-- Right -->
+  <div class="nav-right">
+<a href="/Html/Login.html">
+      <button id="loginBtn" class="tab-btn btn active" data-tab="login">Login</button>
+</a>
+<a href="/Html/"></a>
+      <button id="registerBtn" class="btn btn-outline">Register</button>
+
+  </div>
+
+</nav>
+
+
+
+    <!-- Navigation section Ends here -->
+    
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+    
+    <!-- Header section -->
+    
+    <!-- Header section Ends here -->
+    
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+    
+    <!-- Main section -->
+
+    <main class="main">
+      <div class="content">
+        <div class="hero-box">
+  <!-- Left Arrow -->
+  <button class="arrow left" id="prev">‹</button>
+
+  <!-- Right Arrow -->
+  <button class="arrow right" id="next">›</button>
+
+  <!-- Background Image -->
+  <img id="hero-img" src="/image/Home-img/one.png" alt="Hero Image">
+  <div class="hero-img"></div>
+
+  <!-- Text Content -->
+  <div class="hero-text">
+    <h1 id="hero-title">THE LAST OF US<br>PART II</h1>
+    <p id="hero-desc">
+      Five years after the events of The Last of Us, Ellie embarks on a journey
+      of vengeance in a post-apocalyptic world.
+    </p>
+    <div class="actions">
+      <button class="buy">Buy Now</button>
+      
+    </div>
+  </div>
+</div>
+<!-- hero ends here -->
+<div class="shadow"></div>
+
+<section class="games-section" data-section="upcoming">
+  <div class="section-header">
+    <h2>Upcoming Games</h2>
+    <div class="section-arrows">
+      <button class="s-arrow left">‹</button>
+      <button class="s-arrow right">›</button>
+    </div>
+  </div>
+  <div class="games-slider"></div>
+</section>
+
+<section class="games-section" data-section="trending">
+  <div class="section-header">
+    <h2>Trending</h2>
+    <div class="section-arrows">
+      <button class="s-arrow left">‹</button>
+      <button class="s-arrow right">›</button>
+    </div>
+  </div>
+  <div class="games-slider"></div>
+</section>
+
+<section class="games-section" data-section="bestsellers">
+  <div class="section-header">
+    <h2>Bestsellers</h2>
+    <div class="section-arrows">
+      <button class="s-arrow left">‹</button>
+      <button class="s-arrow right">›</button>
+    </div>
+  </div>
+  <div class="games-slider"></div>
+</section>
+
+<section class="games-section" data-section="deals">
+  <div class="section-header">
+    <h2>Best Deals</h2>
+    <div class="section-arrows">
+      <button class="s-arrow left">‹</button>
+      <button class="s-arrow right">›</button>
+    </div>
+  </div>
+  <div class="games-slider"></div>
+</section>
+<!-- end of cards -->
+
+
+<!-- Game Modal -->
+<div id="game-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-body">
+      <img id="modal-img" src="" alt="Game Image">
+      <div class="modal-info">
+        <h2 id="modal-title"></h2>
+        <p id="modal-desc"></p>
+        <iframe id="modal-video" width="560" height="315" 
+          src="" title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </main>
+<!-- Main section Ends here -->
+
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+    <!-- -------------------------------------------------- -->
+
+  <!-- footer section -->
+<footer class="footer">
+      <div class="footer-top">
+        <div>
+          <img src="/image/Logo.png" class="logo" />
+          <p>
+            GameStore – Where every gamer levels up! From epic AAA adventures to
+            indie gems.
+          </p>
+        </div>
+
+        <div class="line"></div>
+
+        <div>
+          <h4>My Account</h4>
+          <a href="#">My Account</a>
+          <a href="#">My Orders</a>
+        </div>
+
+        <div>
+          <h4>Support</h4>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+
+        <!-- SOCIAL ICONS -->
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="#" aria-label="X / Twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+          <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="Discord">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+        </div>
+      </div>
+
+      <hr />
+      <p class="copy">© 2026 GameVerse. All rights reserved.</p>
+    </footer>
+<!-- footer section Ends here -->
+
+
+
+
+
+<!-- Js -->
+<script src="/Js/index.js"></script>
+<script src="/Js/Cart.js"></script>
+<script src="/Js/main.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
